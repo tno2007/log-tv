@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Log TV</title>
+</head>
+
+<body>
+
+    <pre id="tv">
+
+    </pre>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+
+        function print(a) {
+            var tv = document.getElementById("tv");
+            tv.innerHTML += "\r\n" + a;
+        }
+
+        var socket = io("/logger");
+
+        socket.on("log", function (data) {
+            print(data);
+        });
+
+    </script>
+</body>
+
+</html>

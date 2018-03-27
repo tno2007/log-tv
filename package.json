@@ -1,0 +1,25 @@
+{
+	"name": "log-tv",
+	"version": "1.0.0",
+	"description": "View realtime node application logs in the browser",
+	"main": "index.js",
+	"files": [
+		"lib/"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"log"
+	],
+	"author": {
+		"name": "Lyall van der Linde"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/tno2007/log-tv"
+	},
+	"dependencies": {
+	}
+}
