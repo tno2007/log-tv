@@ -4,13 +4,18 @@
 	"description": "View realtime node application logs in the browser",
 	"main": "index.js",
 	"files": [
-		"lib/"
+		"index.js",
+		"lib"
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
-		"log"
+		"nodejs",
+		"logs",
+		"realtime",
+		"express",
+		"socket-io"
 	],
 	"author": {
 		"name": "Lyall van der Linde"
