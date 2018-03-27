@@ -4,6 +4,10 @@
 
 A super simple library to display realtime logs of your node application in the browser.
 
+## Installation
+
+    npm install log-tv --save
+
 ## How to use
 
 log-tv makes use of express and socket.io, so you will need those installed in your app.
