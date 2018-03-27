@@ -1,6 +1,6 @@
 {
 	"name": "log-tv",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "View realtime node application logs in the browser",
 	"main": "index.js",
 	"files": [
@@ -25,6 +25,5 @@
 		"type": "git",
 		"url": "git://github.com/tno2007/log-tv"
 	},
-	"dependencies": {
-	}
+	"dependencies": {}
 }
