@@ -39,3 +39,9 @@ The page that load will display your logs in real-time:
 ## License
 
 [MIT](LICENSE)
+
+## Todo
+
+- add string.format log string with require('util')
+- style up the log screen
+- keep the old log(...) statements in the log-tv console
